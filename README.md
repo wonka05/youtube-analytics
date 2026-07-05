@@ -25,7 +25,7 @@ An automated data pipeline that scrapes YouTube creator data using the YouTube D
 
 ```text
 Language: Python 
-API: YouTube Data API v3
+API: YouTube Data API 
 Database: SQLite
 Visualization: Power BI Desktop
 Libraries: requests, sqlite3, python-dotenv
@@ -36,7 +36,7 @@ Libraries: requests, sqlite3, python-dotenv
 ```text
 youtube-analytics/
 │── fetch_youtube_data.py       # Main Python logic
-│── database.db                 # SQLite database (stores historical stats)
+│── database.db                 # SQLite database 
 │── .env                        # YouTube API Key 
 │── .gitignore                  # Prevents DB and env files from being pushed
 │── requirements.txt            # Python dependencies

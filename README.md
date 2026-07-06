@@ -38,7 +38,7 @@ youtube-analytics/
 │── fetch_youtube_data.py       # Main Python logic
 │── database.db                 # SQLite database 
 │── .env                        # YouTube API Key 
-│── .gitignore                  # Prevents DB and env files from being pushed
+│── .gitignore                  # Prevents env files from being pushed
 │── requirements.txt            # Python dependencies
 └── YouTube_Dashboard.pbix      # Power BI dashboard file
 ```
@@ -52,7 +52,7 @@ youtube-analytics/
   pip install requests python-dotenv
 
 3. Configure API Key: Creat a .env file and add your key:  
-  YOUTUBE_API_KEY=your_api_key_here
+  YOUTUBE_API_KEY = your_api_key_here
 
 4. Run the app:
   python fetch_youtube_data.py
